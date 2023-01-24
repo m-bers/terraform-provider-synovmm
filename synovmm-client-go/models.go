@@ -14,3 +14,8 @@ type Host struct {
 	} `json:"data"`
 	Success bool `json:"success"`
 }
+
+type Hosts struct {
+	ID    int      `json:"id,omitempty"` // ID is the unique identifier of the host. `json:"id,omitempty"` means that the field is optional.
+	Items []HostID `json:"items,omitempty"`
+}
