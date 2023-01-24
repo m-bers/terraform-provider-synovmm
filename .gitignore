@@ -1,1 +1,5 @@
 terraform/terraform.tfvars
+terraform/.terraform.lock.hcl
+.gitignore
+terraform/terraform.tfstate
+.gitignore
